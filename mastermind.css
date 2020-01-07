@@ -1,0 +1,113 @@
+body{
+    background-color:#62726F;
+    margin:0 auto;
+    width: 400px;
+}
+.plekantwoord{
+    position:absolute;
+    bottom:50px;
+    width:300px;
+    text-align:center;
+}
+#antwoord1{
+    border:1px solid grey;
+    background-color:white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-right:5px;
+}
+#antwoord2{
+    border:1px solid grey;
+    background-color:white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-right:5px;
+}
+#antwoord3{
+    border:1px solid grey;
+    background-color:white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-right:5px;
+}
+#antwoord4{
+    border:1px solid grey;
+    background-color:white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-right:5px;
+}
+.keuze{
+    width:350px;
+    background-color:#61250B;
+    text-align:center;
+}
+#invoer1r1{
+    border:1px solid grey;
+    background-color:white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-right:5px;
+}
+#invoer2r1{
+    border:1px solid grey;
+    background-color:white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-right:5px;
+}
+#invoer3r1{
+    border:1px solid grey;
+    background-color:white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-right:5px;
+}
+#invoer4r1{
+    border:1px solid grey;
+    background-color:white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    margin-right:5px;
+}
+#correctie1r1{
+    display:inline-block;
+    border:1px solid grey;
+    height:12px;
+    width:12px;
+    background-color:red;
+}
+#correctie2r1{
+    display:inline-block;
+    border:1px solid grey;
+    height:12px;
+    width:12px;
+}
+#correctie3r1{
+    display:inline-block;
+    border:1px solid grey;
+    height:12px;
+    width:12px;
+}
+#correctie4r1{
+    display:inline-block;
+    border:1px solid grey;
+    height:12px;
+    width:12px;
+}
