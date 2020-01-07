@@ -6,3 +6,5 @@ var kleur = [
     "black",
     "yellow"
 ];
+
+[Math.floor(Math.random() * kleur.length)]

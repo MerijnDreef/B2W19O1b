@@ -6,7 +6,7 @@ body{
 .plekantwoord{
     position:absolute;
     bottom:50px;
-    width:300px;
+    width:270px;
     text-align:center;
 }
 #antwoord1{
@@ -86,27 +86,40 @@ body{
     display:inline-block;
     margin-right:5px;
 }
-#correctie1r1{
+.correctie{
     display:inline-block;
+}
+.invoer{
+    display:inline-block;
+}
+.lcore{
+    display:inline-block;
+}
+.rcore{
+    display:inline-block;
+}
+#correctie1r1{
+    display:block;
     border:1px solid grey;
     height:12px;
     width:12px;
-    background-color:red;
+    margin-bottom:3px;
 }
 #correctie2r1{
-    display:inline-block;
+    display:block;
     border:1px solid grey;
     height:12px;
     width:12px;
+    margin-bottom:3px;
 }
 #correctie3r1{
-    display:inline-block;
+    display:block;
     border:1px solid grey;
     height:12px;
     width:12px;
 }
 #correctie4r1{
-    display:inline-block;
+    display:block;
     border:1px solid grey;
     height:12px;
     width:12px;
