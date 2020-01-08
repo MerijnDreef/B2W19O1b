@@ -4,8 +4,6 @@ body{
     width: 400px;
 }
 .plekantwoord{
-    position:absolute;
-    bottom:50px;
     width:270px;
     text-align:center;
 }
