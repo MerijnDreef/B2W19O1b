@@ -9,34 +9,7 @@ body{
     width:270px;
     text-align:center;
 }
-#antwoord1{
-    border:1px solid grey;
-    background-color:white;
-    border-radius: 50%;
-    width:50px;
-    height:50px;
-    display:inline-block;
-    margin-right:5px;
-}
-#antwoord2{
-    border:1px solid grey;
-    background-color:white;
-    border-radius: 50%;
-    width:50px;
-    height:50px;
-    display:inline-block;
-    margin-right:5px;
-}
-#antwoord3{
-    border:1px solid grey;
-    background-color:white;
-    border-radius: 50%;
-    width:50px;
-    height:50px;
-    display:inline-block;
-    margin-right:5px;
-}
-#antwoord4{
+.rondje {
     border:1px solid grey;
     background-color:white;
     border-radius: 50%;
@@ -49,42 +22,6 @@ body{
     width:350px;
     background-color:#61250B;
     text-align:center;
-}
-#invoer1r1{
-    border:1px solid grey;
-    background-color:white;
-    border-radius: 50%;
-    width:50px;
-    height:50px;
-    display:inline-block;
-    margin-right:5px;
-}
-#invoer2r1{
-    border:1px solid grey;
-    background-color:white;
-    border-radius: 50%;
-    width:50px;
-    height:50px;
-    display:inline-block;
-    margin-right:5px;
-}
-#invoer3r1{
-    border:1px solid grey;
-    background-color:white;
-    border-radius: 50%;
-    width:50px;
-    height:50px;
-    display:inline-block;
-    margin-right:5px;
-}
-#invoer4r1{
-    border:1px solid grey;
-    background-color:white;
-    border-radius: 50%;
-    width:50px;
-    height:50px;
-    display:inline-block;
-    margin-right:5px;
 }
 .correctie{
     display:inline-block;
