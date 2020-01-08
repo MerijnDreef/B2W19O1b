@@ -14,7 +14,9 @@ for(var rij = 0; rij < 12; rij++) {
     var tempKeuzeArray = document.createElement("div");
     for(var plaatsInRij = 0; plaatsInRij < 4; plaatsInRij++) {
         var obj = document.createElement("div");
+        obj.className = "rondje"
         tempKeuzeArray.appendChild(obj);
     }
+    document.body.appendChild(tempKeuzeArray)
     keuzeArray.push(tempKeuzeArray);
 }
