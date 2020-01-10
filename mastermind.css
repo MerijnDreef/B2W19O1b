@@ -16,9 +16,22 @@ body{
     display:inline-block;
     margin-right:5px;
 }
+.blokje{
+    display:inline-block;
+    border:1px solid grey;
+    height:12px;
+    width:12px;
+    margin-bottom:3px;
+}
+.blokje1{
+    display:inline-block;
+    border:1px solid grey;
+    height:12px;
+    width:12px;
+}
 .keuze{
     width:350px;
-    background-color:#61250B;
+    background-color:#896019;
     text-align:center;
 }
 .correctie{
