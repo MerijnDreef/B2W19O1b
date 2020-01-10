@@ -13,6 +13,7 @@ var keuzeArray = [];
 var array = [];
 for(var rij = 0; rij < 12; rij++) {
     var combObject = document.createElement("div");
+    combObject.className = "achtergrond";
     var tempPinArray = document.createElement("div");
     tempPinArray.className = "vierkant";
     var tempKeuzeArray = document.createElement("div");  

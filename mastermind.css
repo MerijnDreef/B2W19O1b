@@ -1,7 +1,7 @@
 body{
     background-color:#62726F;
     margin:0 auto;
-    width: 400px;
+    width: 300px;
 }
 .plekantwoord{
     width:270px;
@@ -81,4 +81,8 @@ body{
 }
 .cirkel{
     display:inline-block;
+}
+.achtergrond{
+    background-color:#896019;
+    text-align: center;
 }
