@@ -35,6 +35,10 @@ for(var rij = 0; rij < 12; rij++) {
     for(var plaatsInRij = 0; plaatsInRij < 4; plaatsInRij++) {
         var obj = document.createElement("div");
         obj.className = "rondje"
+        obj.style.backgroundColor = "#FFFFFF";
+        obj.addEventListener("click", function() {
+            console.log(this.style.backgroundColor);
+        })
         tempKeuzeArray.appendChild(obj);
     }
     

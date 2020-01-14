@@ -4,8 +4,10 @@ body{
     width: 300px;
 }
 .plekantwoord{
-    width:270px;
+    width:300px;
     text-align:center;
+    background-color:#896019;
+    
 }
 .rondje {
     border:1px solid grey;
@@ -14,21 +16,25 @@ body{
     width:50px;
     height:50px;
     display:inline-block;
-    margin-right:5px;
+    margin-right:1px;
 }
+.rondje:hover {
+    cursor: pointer;
+}
+
 .blokje{
     display:block;
     border:1px solid grey;
     height:12px;
     width:12px;
-    margin-left:1px;
+    margin-left:5px;
 }
 .blokje1{
     display:block;
     border:1px solid grey;
     height:12px;
     width:12px;
-    margin-left: 1px;
+    margin-left:1px;
 }
 .keuze{
     width:350px;
@@ -50,7 +56,6 @@ body{
     display:inline-block;
     width:34px;
     height:28px;
-    
 }
 .cirkel{
     display:inline-block;
@@ -58,4 +63,37 @@ body{
 .achtergrond{
     background-color:#896019;
     text-align: center;
+}
+#antwoord1{
+    margin-left:30px;
+}
+.colorkeuze{
+    position:absolute;
+    background-color:#3F2F4D;
+    width:200px;
+    top:350px;
+    right:300px;
+}
+.buttonrondje{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+}
+#red{
+    background-color:red;
+}
+#blue{
+    background-color:blue;
+}
+#green{
+    background-color:green;
+}
+#white{
+    background-color:white;
+}
+#black{
+    background-color:black;
+}
+#yellow{
+    background-color:yellow;
 }
