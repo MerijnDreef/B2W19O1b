@@ -32,7 +32,6 @@ body{
 }
 .keuze{
     width:350px;
-    background-color:#896019;
     text-align:center;
 }
 .correctie{
@@ -46,32 +45,6 @@ body{
 }
 .rcore{
     display:inline-block;
-}
-#correctie1r1{
-    display:block;
-    border:1px solid grey;
-    height:12px;
-    width:12px;
-    margin-bottom:3px;
-}
-#correctie2r1{
-    display:block;
-    border:1px solid grey;
-    height:12px;
-    width:12px;
-    margin-bottom:3px;
-}
-#correctie3r1{
-    display:block;
-    border:1px solid grey;
-    height:12px;
-    width:12px;
-}
-#correctie4r1{
-    display:block;
-    border:1px solid grey;
-    height:12px;
-    width:12px;
 }
 .vierkant{
     display:inline-block;
