@@ -11,7 +11,7 @@ body{
 }
 .rondje {
     border:1px solid grey;
-    background-color:white;
+    background-color:lavender;
     border-radius: 50%;
     width:50px;
     height:50px;
@@ -70,30 +70,30 @@ body{
 .colorkeuze{
     position:absolute;
     background-color:#3F2F4D;
-    width:200px;
+    width:100px;
     top:350px;
-    right:300px;
+    right:350px;
 }
 .buttonrondje{
     width:30px;
     height:30px;
     border-radius:50%;
 }
-#red{
+#buttonRed{
     background-color:red;
 }
-#blue{
+#buttonBlue{
     background-color:blue;
 }
-#green{
+#buttonGreen{
     background-color:green;
 }
-#white{
+#buttonWhite{
     background-color:white;
 }
-#black{
+#buttonBlack{
     background-color:black;
 }
-#yellow{
+#buttonYellow{
     background-color:yellow;
 }
