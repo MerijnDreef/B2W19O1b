@@ -88,9 +88,9 @@ console.log(keuzeArray);
         buttonAction("green");  
     })
 
-    var buttonwhite = document.getElementById("buttonWhite");
-    buttonwhite.addEventListener("click", function() {
-        buttonAction("white");  
+    var buttonpurple = document.getElementById("buttonPurple");
+    buttonpurple.addEventListener("click", function() {
+        buttonAction("purple");  
     })
 
     var buttonblack = document.getElementById("buttonBlack");
