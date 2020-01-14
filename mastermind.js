@@ -18,7 +18,6 @@ var antwoord3 = document.getElementById("antwoord3");
 var antwoord4 = document.getElementById("antwoord4");
     antwoord4 = kleur[Math.floor(Math.random() * kleur.length)]
     console.log(antwoord4)
-// [Math.floor(Math.random() * kleur.length)]
 
 var keuzeArray = [];
 var array = [];
@@ -49,7 +48,6 @@ for(var rij = 0; rij < 12; rij++) {
         circle.className = "rondje"
         circle.style.backgroundColor = "lavender";
         circle.addEventListener("click", function() {
-            console.log(this.style.backgroundColor);
             this.selected = true
         })
         circle.selected = false
@@ -106,10 +104,8 @@ console.log(keuzeArray);
     })
 
 function buttonAction(color){
-    console.log(" xd")
-    console.log(circles)
+  
         for (let index = 0; index < circles.length; index++) {
-            console.log(circles[index].selected)
             if(circles[index].selected == true){
                 circles[index].selected = false
                 circles[index].style.backgroundColor = color;
