@@ -70,13 +70,13 @@ body{
 .colorkeuze{
     position:absolute;
     background-color:#3F2F4D;
-    width:100px;
+    width:158px;
     top:350px;
     right:350px;
 }
 .buttonrondje{
-    width:30px;
-    height:30px;
+    width:50px;
+    height:50px;
     border-radius:50%;
 }
 #buttonRed{
@@ -96,4 +96,7 @@ body{
 }
 #buttonYellow{
     background-color:yellow;
+}
+#buttoncheck{
+    width:158px;
 }

@@ -1,6 +1,6 @@
 var kleur = [
-    "red",
-    "blue",
+    "Red",
+    "Blue",
     "green",
     "white",
     "black",
@@ -104,7 +104,6 @@ console.log(keuzeArray);
     })
 
 function buttonAction(color){
-  
         for (let index = 0; index < circles.length; index++) {
             if(circles[index].selected == true){
                 circles[index].selected = false
