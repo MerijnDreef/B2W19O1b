@@ -21,7 +21,6 @@ body{
 .rondje:hover {
     cursor: pointer;
 }
-
 .blokje{
     display:block;
     border:1px solid grey;
@@ -35,22 +34,6 @@ body{
     height:12px;
     width:12px;
     margin-left:1px;
-}
-.keuze{
-    width:350px;
-    text-align:center;
-}
-.correctie{
-    display:inline-block;
-}
-.invoer{
-    display:inline-block;
-}
-.lcore{
-    display:inline-block;
-}
-.rcore{
-    display:inline-block;
 }
 .vierkant{
     display:inline-block;
