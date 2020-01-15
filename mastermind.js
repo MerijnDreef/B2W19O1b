@@ -46,8 +46,10 @@ for(var rij = 0; rij < 12; rij++) {
     for(var plaatsInRij = 0; plaatsInRij < 4; plaatsInRij++) {
         var circle = document.createElement("div");
         circle.className = "rondje"
+        circle.objNumber = plaatsInRij;
         circle.style.backgroundColor = "lavender";
         circle.addEventListener("click", function() {
+            select(this.objNumber);
             this.selected = true
         })
         circle.selected = false
@@ -72,6 +74,10 @@ for(i=0;i<24;i++){
 }
 console.log(array);
 console.log(keuzeArray);
+var beurt = 11;
+function select(place){
+    circles[beurt * 4 + place].style.borderColor = "purple"
+}
 
     var buttonred = document.getElementById("buttonRed");
     buttonred.addEventListener("click", function() {
