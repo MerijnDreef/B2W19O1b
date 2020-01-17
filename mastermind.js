@@ -1,10 +1,10 @@
 var kleur = [
     "Red",
     "Blue",
-    "green",
-    "white",
-    "black",
-    "yellow"
+    "Green",
+    "White",
+    "Black",
+    "Yellow"
 ];
 var antwoord1 = document.getElementById("antwoord1");
    antwoord1 = kleur[Math.floor(Math.random() * kleur.length)]
@@ -19,6 +19,7 @@ var antwoord4 = document.getElementById("antwoord4");
     antwoord4 = kleur[Math.floor(Math.random() * kleur.length)]
     console.log(antwoord4)
 
+    document.getElementById('buttoncheck').onclick = checkColor;
 var keuzeArray = [];
 var array = [];
 var circles = [];
@@ -45,12 +46,11 @@ for(var rij = 0; rij < 12; rij++) {
 
     for(var plaatsInRij = 0; plaatsInRij < 4; plaatsInRij++) {
         var circle = document.createElement("div");
-        circle.className = "rondje"
+        circle.className = "rondje";
         circle.objNumber = plaatsInRij;
         circle.style.backgroundColor = "lavender";
-        circle.addEventListener("click", function() {
+        circle.addEventListener("click", function () {
             select(this.objNumber);
-            this.selected = true
         })
         circle.selected = false
         tempKeuzeArray.appendChild(circle);
@@ -74,9 +74,16 @@ for(i=0;i<24;i++){
 }
 console.log(array);
 console.log(keuzeArray);
+console.log(circles)
 var beurt = 11;
 function select(place){
-    circles[beurt * 4 + place].style.borderColor = "purple"
+    for(var i = 0; i < circles.length; i++) {
+        circles[i].selected = false;
+        
+        circles[i].style.borderColor = "grey";
+    }
+    circles[beurt * 4 + place].style.borderColor = "purple";
+    circles[beurt * 4 + place].selected = true;
 }
 
     var buttonred = document.getElementById("buttonRed");
@@ -115,6 +122,9 @@ function buttonAction(color){
                 circles[index].selected = false
                 circles[index].style.backgroundColor = color;
             }
-            
         }
     }
+
+function checkColor(){
+
+}

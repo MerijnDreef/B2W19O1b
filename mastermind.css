@@ -26,7 +26,7 @@ body{
     border:1px solid grey;
     height:12px;
     width:12px;
-    margin-left:5px;
+    margin-right:3px;
 }
 .blokje1{
     display:block;
@@ -38,7 +38,7 @@ body{
 .vierkant{
     display:inline-block;
     width:34px;
-    height:28px;
+    height:25px;
 }
 .cirkel{
     display:inline-block;
