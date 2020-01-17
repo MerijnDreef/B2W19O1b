@@ -2,24 +2,30 @@ var kleur = [
     "Red",
     "Blue",
     "Green",
-    "White",
+    "Purple",
     "Black",
     "Yellow"
 ];
+var antwoordArray = [];
 var antwoord1 = document.getElementById("antwoord1");
    antwoord1 = kleur[Math.floor(Math.random() * kleur.length)]
+   antwoordArray.push(antwoord1);
     console.log(antwoord1)
 var antwoord2 = document.getElementById("antwoord2");
     antwoord2 = kleur[Math.floor(Math.random() * kleur.length)]
+    antwoordArray.push(antwoord2);
     console.log(antwoord2)
 var antwoord3 = document.getElementById("antwoord3");
     antwoord3 = kleur[Math.floor(Math.random() * kleur.length)]
+    antwoordArray.push(antwoord3);
     console.log(antwoord3)
 var antwoord4 = document.getElementById("antwoord4");
     antwoord4 = kleur[Math.floor(Math.random() * kleur.length)]
+    antwoordArray.push(antwoord4);
     console.log(antwoord4)
-
-    document.getElementById('buttoncheck').onclick = checkColor;
+console.log(antwoordArray)
+    document.getElementById("buttoncheck").onclick = checkColor;
+var gekozenArray = [];
 var keuzeArray = [];
 var array = [];
 var circles = [];
@@ -32,16 +38,12 @@ for(var rij = 0; rij < 12; rij++) {
     tempKeuzeArray.className = "cirkel";
       
     var arrayobj = [];
-    var arrayobj1 = [];
-    for(var locatieInRij = 0; locatieInRij < 2; locatieInRij++){
+
+    for(var locatieInRij = 0; locatieInRij < 4; locatieInRij++){
         var obj = document.createElement("div");
         obj.className = "blokje"
-        var obj1 = document.createElement("div");
-        obj1.className = "blokje1"
         tempPinArray.appendChild(obj);
-        tempPinArray.appendChild(obj1); 
         arrayobj.push(obj);
-        arrayobj1.push(obj1);
     }
 
     for(var plaatsInRij = 0; plaatsInRij < 4; plaatsInRij++) {
@@ -58,17 +60,18 @@ for(var rij = 0; rij < 12; rij++) {
     }
     
     array.push(arrayobj);
-    array.push(arrayobj1);
-    console.log(tempPinArray);
-    console.log(tempKeuzeArray);
-    console.log(combObject);
+   
     combObject.appendChild(tempPinArray);
     combObject.appendChild(tempKeuzeArray);
     document.body.appendChild(combObject);
-    keuzeArray.push(combObject);
+    keuzeArray.push(combObject); 
+     console.log(tempPinArray);
+    console.log(tempKeuzeArray);
+   console.log(combObject);
+    
 }
-for(i=0;i<24;i++){
-    for(n=0;n<2;n++){
+for(i=0;i<12;i++){
+    for(n=0;n<4;n++){
        array[i][n].style.display ="inline-block";
     }
 }
@@ -84,6 +87,7 @@ function select(place){
     }
     circles[beurt * 4 + place].style.borderColor = "purple";
     circles[beurt * 4 + place].selected = true;
+    
 }
 
     var buttonred = document.getElementById("buttonRed");
@@ -126,5 +130,12 @@ function buttonAction(color){
     }
 
 function checkColor(){
+    alert("het werkt")
+    for(var i = 0; i < 4; i++){
+        if(circles[beurt * 4 + i].style.backgroundColor == antwoordArray[i]){
+            tempPinArray[i].style.backgroundColor = "red"
+        }
+    }
 
 }
+blokjes[lijnY][lijnX].style.backgroundColor = "#000000"
