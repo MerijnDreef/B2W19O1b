@@ -138,4 +138,4 @@ function checkColor(){
     }
 
 }
-blokjes[lijnY][lijnX].style.backgroundColor = "#000000"
+// blokjes[lijnY][lijnX].style.backgroundColor = "#000000"
